@@ -1,0 +1,539 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CCB6ED971CCF025C00BD1F2C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CCB6ED961CCF025C00BD1F2C /* main.m */; };
+		CCB6ED9A1CCF025C00BD1F2C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CCB6ED991CCF025C00BD1F2C /* AppDelegate.m */; };
+		CCB6ED9D1CCF025C00BD1F2C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CCB6ED9C1CCF025C00BD1F2C /* ViewController.m */; };
+		CCB6EDA01CCF025C00BD1F2C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CCB6ED9E1CCF025C00BD1F2C /* Main.storyboard */; };
+		CCB6EDA21CCF025D00BD1F2C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CCB6EDA11CCF025D00BD1F2C /* Assets.xcassets */; };
+		CCB6EDA51CCF025D00BD1F2C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CCB6EDA31CCF025D00BD1F2C /* LaunchScreen.storyboard */; };
+		CCB6EDB01CCF025D00BD1F2C /* _1_Touch__Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = CCB6EDAF1CCF025D00BD1F2C /* _1_Touch__Tests.m */; };
+		CCB6EDBB1CCF025D00BD1F2C /* _1_Touch__UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = CCB6EDBA1CCF025D00BD1F2C /* _1_Touch__UITests.m */; };
+		CCB6EDCC1CCF027100BD1F2C /* CyanSquare.png in Resources */ = {isa = PBXBuildFile; fileRef = CCB6EDC91CCF027100BD1F2C /* CyanSquare.png */; };
+		CCB6EDCD1CCF027100BD1F2C /* MagentaSquare.png in Resources */ = {isa = PBXBuildFile; fileRef = CCB6EDCA1CCF027100BD1F2C /* MagentaSquare.png */; };
+		CCB6EDCE1CCF027100BD1F2C /* YellowSquare.png in Resources */ = {isa = PBXBuildFile; fileRef = CCB6EDCB1CCF027100BD1F2C /* YellowSquare.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CCB6EDAC1CCF025D00BD1F2C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CCB6ED8A1CCF025C00BD1F2C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CCB6ED911CCF025C00BD1F2C;
+			remoteInfo = "01-Touch练习";
+		};
+		CCB6EDB71CCF025D00BD1F2C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CCB6ED8A1CCF025C00BD1F2C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CCB6ED911CCF025C00BD1F2C;
+			remoteInfo = "01-Touch练习";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CCB6ED921CCF025C00BD1F2C /* 01-Touch练习.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "01-Touch练习.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CCB6ED961CCF025C00BD1F2C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CCB6ED981CCF025C00BD1F2C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CCB6ED991CCF025C00BD1F2C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CCB6ED9B1CCF025C00BD1F2C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		CCB6ED9C1CCF025C00BD1F2C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		CCB6ED9F1CCF025C00BD1F2C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CCB6EDA11CCF025D00BD1F2C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CCB6EDA41CCF025D00BD1F2C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CCB6EDA61CCF025D00BD1F2C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CCB6EDAB1CCF025D00BD1F2C /* 01-Touch练习Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "01-Touch练习Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CCB6EDAF1CCF025D00BD1F2C /* _1_Touch__Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = _1_Touch__Tests.m; sourceTree = "<group>"; };
+		CCB6EDB11CCF025D00BD1F2C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CCB6EDB61CCF025D00BD1F2C /* 01-Touch练习UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "01-Touch练习UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CCB6EDBA1CCF025D00BD1F2C /* _1_Touch__UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = _1_Touch__UITests.m; sourceTree = "<group>"; };
+		CCB6EDBC1CCF025D00BD1F2C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CCB6EDC91CCF027100BD1F2C /* CyanSquare.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = CyanSquare.png; sourceTree = "<group>"; };
+		CCB6EDCA1CCF027100BD1F2C /* MagentaSquare.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = MagentaSquare.png; sourceTree = "<group>"; };
+		CCB6EDCB1CCF027100BD1F2C /* YellowSquare.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = YellowSquare.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CCB6ED8F1CCF025C00BD1F2C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CCB6EDA81CCF025D00BD1F2C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CCB6EDB31CCF025D00BD1F2C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CCB6ED891CCF025C00BD1F2C = {
+			isa = PBXGroup;
+			children = (
+				CCB6ED941CCF025C00BD1F2C /* 01-Touch练习 */,
+				CCB6EDAE1CCF025D00BD1F2C /* 01-Touch练习Tests */,
+				CCB6EDB91CCF025D00BD1F2C /* 01-Touch练习UITests */,
+				CCB6ED931CCF025C00BD1F2C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CCB6ED931CCF025C00BD1F2C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CCB6ED921CCF025C00BD1F2C /* 01-Touch练习.app */,
+				CCB6EDAB1CCF025D00BD1F2C /* 01-Touch练习Tests.xctest */,
+				CCB6EDB61CCF025D00BD1F2C /* 01-Touch练习UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CCB6ED941CCF025C00BD1F2C /* 01-Touch练习 */ = {
+			isa = PBXGroup;
+			children = (
+				CCB6ED981CCF025C00BD1F2C /* AppDelegate.h */,
+				CCB6ED991CCF025C00BD1F2C /* AppDelegate.m */,
+				CCB6ED9B1CCF025C00BD1F2C /* ViewController.h */,
+				CCB6ED9C1CCF025C00BD1F2C /* ViewController.m */,
+				CCB6ED9E1CCF025C00BD1F2C /* Main.storyboard */,
+				CCB6EDA11CCF025D00BD1F2C /* Assets.xcassets */,
+				CCB6EDA31CCF025D00BD1F2C /* LaunchScreen.storyboard */,
+				CCB6EDA61CCF025D00BD1F2C /* Info.plist */,
+				CCB6ED951CCF025C00BD1F2C /* Supporting Files */,
+			);
+			path = "01-Touch练习";
+			sourceTree = "<group>";
+		};
+		CCB6ED951CCF025C00BD1F2C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CCB6EDC81CCF027100BD1F2C /* materials */,
+				CCB6ED961CCF025C00BD1F2C /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CCB6EDAE1CCF025D00BD1F2C /* 01-Touch练习Tests */ = {
+			isa = PBXGroup;
+			children = (
+				CCB6EDAF1CCF025D00BD1F2C /* _1_Touch__Tests.m */,
+				CCB6EDB11CCF025D00BD1F2C /* Info.plist */,
+			);
+			path = "01-Touch练习Tests";
+			sourceTree = "<group>";
+		};
+		CCB6EDB91CCF025D00BD1F2C /* 01-Touch练习UITests */ = {
+			isa = PBXGroup;
+			children = (
+				CCB6EDBA1CCF025D00BD1F2C /* _1_Touch__UITests.m */,
+				CCB6EDBC1CCF025D00BD1F2C /* Info.plist */,
+			);
+			path = "01-Touch练习UITests";
+			sourceTree = "<group>";
+		};
+		CCB6EDC81CCF027100BD1F2C /* materials */ = {
+			isa = PBXGroup;
+			children = (
+				CCB6EDC91CCF027100BD1F2C /* CyanSquare.png */,
+				CCB6EDCA1CCF027100BD1F2C /* MagentaSquare.png */,
+				CCB6EDCB1CCF027100BD1F2C /* YellowSquare.png */,
+			);
+			path = materials;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CCB6ED911CCF025C00BD1F2C /* 01-Touch练习 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CCB6EDBF1CCF025D00BD1F2C /* Build configuration list for PBXNativeTarget "01-Touch练习" */;
+			buildPhases = (
+				CCB6ED8E1CCF025C00BD1F2C /* Sources */,
+				CCB6ED8F1CCF025C00BD1F2C /* Frameworks */,
+				CCB6ED901CCF025C00BD1F2C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "01-Touch练习";
+			productName = "01-Touch练习";
+			productReference = CCB6ED921CCF025C00BD1F2C /* 01-Touch练习.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CCB6EDAA1CCF025D00BD1F2C /* 01-Touch练习Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CCB6EDC21CCF025D00BD1F2C /* Build configuration list for PBXNativeTarget "01-Touch练习Tests" */;
+			buildPhases = (
+				CCB6EDA71CCF025D00BD1F2C /* Sources */,
+				CCB6EDA81CCF025D00BD1F2C /* Frameworks */,
+				CCB6EDA91CCF025D00BD1F2C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CCB6EDAD1CCF025D00BD1F2C /* PBXTargetDependency */,
+			);
+			name = "01-Touch练习Tests";
+			productName = "01-Touch练习Tests";
+			productReference = CCB6EDAB1CCF025D00BD1F2C /* 01-Touch练习Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CCB6EDB51CCF025D00BD1F2C /* 01-Touch练习UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CCB6EDC51CCF025D00BD1F2C /* Build configuration list for PBXNativeTarget "01-Touch练习UITests" */;
+			buildPhases = (
+				CCB6EDB21CCF025D00BD1F2C /* Sources */,
+				CCB6EDB31CCF025D00BD1F2C /* Frameworks */,
+				CCB6EDB41CCF025D00BD1F2C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CCB6EDB81CCF025D00BD1F2C /* PBXTargetDependency */,
+			);
+			name = "01-Touch练习UITests";
+			productName = "01-Touch练习UITests";
+			productReference = CCB6EDB61CCF025D00BD1F2C /* 01-Touch练习UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CCB6ED8A1CCF025C00BD1F2C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "河南青云信息技术有限公司";
+				TargetAttributes = {
+					CCB6ED911CCF025C00BD1F2C = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					CCB6EDAA1CCF025D00BD1F2C = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = CCB6ED911CCF025C00BD1F2C;
+					};
+					CCB6EDB51CCF025D00BD1F2C = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = CCB6ED911CCF025C00BD1F2C;
+					};
+				};
+			};
+			buildConfigurationList = CCB6ED8D1CCF025C00BD1F2C /* Build configuration list for PBXProject "01-Touch练习" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CCB6ED891CCF025C00BD1F2C;
+			productRefGroup = CCB6ED931CCF025C00BD1F2C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CCB6ED911CCF025C00BD1F2C /* 01-Touch练习 */,
+				CCB6EDAA1CCF025D00BD1F2C /* 01-Touch练习Tests */,
+				CCB6EDB51CCF025D00BD1F2C /* 01-Touch练习UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CCB6ED901CCF025C00BD1F2C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CCB6EDA51CCF025D00BD1F2C /* LaunchScreen.storyboard in Resources */,
+				CCB6EDCC1CCF027100BD1F2C /* CyanSquare.png in Resources */,
+				CCB6EDA21CCF025D00BD1F2C /* Assets.xcassets in Resources */,
+				CCB6EDA01CCF025C00BD1F2C /* Main.storyboard in Resources */,
+				CCB6EDCE1CCF027100BD1F2C /* YellowSquare.png in Resources */,
+				CCB6EDCD1CCF027100BD1F2C /* MagentaSquare.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CCB6EDA91CCF025D00BD1F2C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CCB6EDB41CCF025D00BD1F2C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CCB6ED8E1CCF025C00BD1F2C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CCB6ED9D1CCF025C00BD1F2C /* ViewController.m in Sources */,
+				CCB6ED9A1CCF025C00BD1F2C /* AppDelegate.m in Sources */,
+				CCB6ED971CCF025C00BD1F2C /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CCB6EDA71CCF025D00BD1F2C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CCB6EDB01CCF025D00BD1F2C /* _1_Touch__Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CCB6EDB21CCF025D00BD1F2C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CCB6EDBB1CCF025D00BD1F2C /* _1_Touch__UITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CCB6EDAD1CCF025D00BD1F2C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CCB6ED911CCF025C00BD1F2C /* 01-Touch练习 */;
+			targetProxy = CCB6EDAC1CCF025D00BD1F2C /* PBXContainerItemProxy */;
+		};
+		CCB6EDB81CCF025D00BD1F2C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CCB6ED911CCF025C00BD1F2C /* 01-Touch练习 */;
+			targetProxy = CCB6EDB71CCF025D00BD1F2C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CCB6ED9E1CCF025C00BD1F2C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CCB6ED9F1CCF025C00BD1F2C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CCB6EDA31CCF025D00BD1F2C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CCB6EDA41CCF025D00BD1F2C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CCB6EDBD1CCF025D00BD1F2C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		CCB6EDBE1CCF025D00BD1F2C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CCB6EDC01CCF025D00BD1F2C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "01-Touch练习/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.hnqingyun.-1-Touch--";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		CCB6EDC11CCF025D00BD1F2C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "01-Touch练习/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.hnqingyun.-1-Touch--";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		CCB6EDC31CCF025D00BD1F2C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "01-Touch练习Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.hnqingyun.-1-Touch--Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/01-Touch练习.app/01-Touch练习";
+			};
+			name = Debug;
+		};
+		CCB6EDC41CCF025D00BD1F2C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "01-Touch练习Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.hnqingyun.-1-Touch--Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/01-Touch练习.app/01-Touch练习";
+			};
+			name = Release;
+		};
+		CCB6EDC61CCF025D00BD1F2C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "01-Touch练习UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.hnqingyun.-1-Touch--UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "01-Touch练习";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		CCB6EDC71CCF025D00BD1F2C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "01-Touch练习UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.hnqingyun.-1-Touch--UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "01-Touch练习";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CCB6ED8D1CCF025C00BD1F2C /* Build configuration list for PBXProject "01-Touch练习" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CCB6EDBD1CCF025D00BD1F2C /* Debug */,
+				CCB6EDBE1CCF025D00BD1F2C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CCB6EDBF1CCF025D00BD1F2C /* Build configuration list for PBXNativeTarget "01-Touch练习" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CCB6EDC01CCF025D00BD1F2C /* Debug */,
+				CCB6EDC11CCF025D00BD1F2C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CCB6EDC21CCF025D00BD1F2C /* Build configuration list for PBXNativeTarget "01-Touch练习Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CCB6EDC31CCF025D00BD1F2C /* Debug */,
+				CCB6EDC41CCF025D00BD1F2C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CCB6EDC51CCF025D00BD1F2C /* Build configuration list for PBXNativeTarget "01-Touch练习UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CCB6EDC61CCF025D00BD1F2C /* Debug */,
+				CCB6EDC71CCF025D00BD1F2C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CCB6ED8A1CCF025C00BD1F2C /* Project object */;
+}
